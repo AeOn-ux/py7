@@ -16,4 +16,4 @@ print("숫자:", int(num2))
 num = input("숫자를 입력하세요.") # input타입 : 문자열
 print("숫자:", float(num)) # 문자열 -> 정수타입으로 변경 : int
 num2 = input("숫자를 입력하세요.")
-print("숫자:", floatt(num2))
+print("숫자:", float(num2))
