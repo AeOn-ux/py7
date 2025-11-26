@@ -36,6 +36,7 @@ class Stuscore:
         print(*self.titles, sep="\t")
         print("-"*65)
         for stus in self.stu_list:
-            print(f"{stus['stuno']}\t{stus['name']}\t{stus['kor']}\t{stus['eng']}\t{stus['math']}\t{stus['total']}\t{stus['total']}\t{stus['avg']:.2f}\t{stus['rank']}")
+            print(f"{stus['stuno']}\t{stus['name']}\t{stus['kor']}\t{stus['eng']}\t\
+                {stus['math']}\t{stus['total']}\t{stus['total']}\t{stus['avg']:.2f}\t{stus['rank']}")
             
         print()
